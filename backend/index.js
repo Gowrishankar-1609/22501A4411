@@ -1,5 +1,5 @@
 const express = require('express');
-const Log = require('./LoggingMiddleware/logger');
+const Log = require('../LoggingMiddleware/logger');
 const {
   createShortUrl,
   getShortUrl,
